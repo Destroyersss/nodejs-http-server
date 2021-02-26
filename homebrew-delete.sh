@@ -4,4 +4,4 @@ sudo rm -rf /System/Volumes/Data/usr/local/Homebrew
 sudo rm -rf /System/Volumes/Data/usr/local/var/homebrew
 
 
-find / -type d -name "*omebrew*"
+find / -type d -name "*omebrew*" | grep -i "Homebrew"
